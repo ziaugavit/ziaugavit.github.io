@@ -1,0 +1,19 @@
+:root{--bg:#0e0f11;--panel:#17191c;--text:#eceae4;--muted:#a3a19a;--gold:#ffc21a;--gold2:#e3a000;--line:#2a2d31}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--gold)}
+.stripes{height:10px;background:repeating-linear-gradient(-45deg,var(--gold) 0 14px,#111 14px 28px)}
+.wrap{max-width:760px;margin:0 auto;padding:28px 18px 60px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:26px}
+header img{width:64px;height:64px;border-radius:15px}
+.brand{font-weight:900;letter-spacing:.06em;font-size:26px;text-transform:uppercase;line-height:1.1}
+.brand small{display:block;color:var(--gold);font-size:13px;letter-spacing:.18em}
+nav{display:flex;gap:18px;flex-wrap:wrap;margin:6px 0 28px;font-weight:700;text-transform:uppercase;font-size:14px;letter-spacing:.08em}
+nav a{color:var(--muted);text-decoration:none}nav a.on,nav a:hover{color:var(--gold)}
+h1{font-size:32px;line-height:1.15;margin:0 0 10px;text-transform:uppercase;letter-spacing:.03em}
+h2{font-size:20px;margin:34px 0 8px;color:var(--gold);text-transform:uppercase;letter-spacing:.05em}
+.lead{color:var(--muted);font-size:19px}
+.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);padding:18px 20px;margin:18px 0;border-radius:4px}
+ul{padding-left:22px}li{margin:6px 0}
+.btn{display:inline-block;background:linear-gradient(var(--gold),var(--gold2));color:#111;font-weight:900;text-decoration:none;padding:12px 20px;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:48px;padding-top:18px}
