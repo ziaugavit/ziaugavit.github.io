@@ -1,2 +1,2 @@
 # app-ads.txt for Deadeye: Gun Shooting Range
-# Advertising partner entries will be added here once the ad accounts are set up.
+google.com, pub-8630129004713398, DIRECT, f08c47fec0942fa0
